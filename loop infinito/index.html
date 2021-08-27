@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop infinito </title>
+</head>
+
+<body>
+    <script>
+        //vamos fazer um loop finito simples
+        // comçaremos definindo os valores
+        // (while pl == 0) é a mesma coisa que dizer q ele é true, mas quando for (pl = 1) o while será false pq ele não será mais pl == 0, ou seja é como se o while fosse while(false)
+
+        var pl = 0
+        var n = 0
+        while (pl == 0) {
+            var msg = prompt('Deseja começar o jogo?')
+
+            if (msg == 's' || msg == 'sim') {
+                n++
+                console.log('Que comece o jogo ' + n);
+
+
+            } else if (msg != 's' || msg != 'sim') {
+                console.log('acabou ; _ ;');
+                pl = 1;
+            };
+        };
+
+        pl = 0;
+        n = 0;
+        while (pl == 0) {
+            var msg2 = prompt('Deseja recomeçar o jogo de novo?');
+
+            if (msg2 == 's' || msg2 == 'sim') {
+                n++;
+                console.log('Começando de novo o jogo ' + n);
+
+            } else if (msg2 != 's' || msg2 != 'sim') {
+                console.log('acabou mesmo ; _ ;');
+                pl = 1;
+
+            };
+        }
+    </script>
+</body>
+
+</html>
