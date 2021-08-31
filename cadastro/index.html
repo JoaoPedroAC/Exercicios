@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro </title>
+</head>
+
+<body>
+    <script>
+        //CADASTRANDO PESSOAS
+        // 1 - declarando as variaveis para a lista
+        // 2 - definindo a lista
+
+        var nome = prompt('Escreva seu nome')
+        var idade = prompt('Escreva sua idade')
+        var cpf = prompt('Escreva seu cpf')
+
+        var cadastrado = [{
+            'nome': 'João',
+            'idade': 21,
+            'cpf': 123456789
+        }, {
+            'nome': nome,
+            'idade': idade,
+            'cpf': cpf
+        }]
+        cadastrado.push(nome, idade, cpf)
+
+        console.log(cadastrado)
+    </script>
+</body>
+
+</html>
