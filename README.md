@@ -1,2 +1,2 @@
 # Exercicios do curso
-Exercícios que fiz nos cursos de web dev
+Exercícios de tudo o que estou estudando
