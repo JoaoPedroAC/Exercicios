@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <script>
+        //Fazendo um calculo para saberquantos dias falta tem de difrença entreum e outro
+
+        // o padrão eh amaricano ou seja: m/d/a
+        var data1 = new Date('08/30/2021');
+        var data2 = new Date('09/01/2021');
+        // getTime vai retorna a data em milissegundos ou seja mto numero
+
+        // 1000 = 1s -> 3600 = 1hr -> 24 = 1 dia
+
+        // '/ (1000 * 3600 * 24)' essa conta vai transformar o milisegundos em dias
+        var difer = (data2.getTime() - data1.getTime()) / (1000 * 3600 * 24)
+        console.log(difer);
+    </script>
+</body>
+
+</html>
