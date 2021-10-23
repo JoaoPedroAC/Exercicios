@@ -8,11 +8,12 @@ display.innerHTML = slider.value;
 slider.oninput = function () {
 	display.innerHTML = this.value;
 };
-// aqui vai 
+// aqui vai
 slider.addEventListener('mousemove', function () {
-	let x = slider.value;
+	// poderia ser apenas slider.value, mas desse jeito fica mais completo, devido o range dar resultados em "porcentagem"
+	let x = ((slider.value - slider.min) / (slider.max - slider.min)) * 100;
 	let color = `linear-gradient(90deg,
 		rgb(117, 252, 117) ${x}%,
 		rgb(214, 214, 214) ${x}%)`;
-        slider.style.background = color;
+	slider.style.background = color;
 });
