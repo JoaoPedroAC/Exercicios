@@ -1,19 +1,30 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="slideContainer">
-        <input type="range" min="0" max="150" value="0" id="myRange" class="slider">
-        <p>Vlaue:<span id="valor"></span></p>
-    </div>
-    <!-- slideContainer -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="slideContainer">
+			<input
+				type="range"
+				min="0"
+				max="150"
+				value="0"
+				id="myRange"
+				class="slider"
+			/>
+			<p>Vlaue:<span id="valor"></span></p>
+		</div>
+		<!-- slideContainer -->
 
+		<div class="novoContainer">
+			<input id="slide" class="range" type="range" min="1" max="20" value="1" />
+		</div>
+		<!-- novoContainer -->
 
-    <script src="js.js"></script>
-</body>
+		<script src="js.js"></script>
+	</body>
 </html>
