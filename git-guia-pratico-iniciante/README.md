@@ -24,16 +24,39 @@ https://git-scm.com/download
 - [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
 - [x] Você precisa recuperar algo deletado.
 
-* `git init` // inicia a linha do tempo
-* `git add "file"` // adiciona ou atualiza mudanças para irem para a linha do tempoo
+* `git init` // inicia a linha do tempo(USAR EM PASTAS - define o repositorio local)
+
+* `git add "file"` // adiciona ou atualiza mudanças para irem para a linha do tempo
+
 * `git commit "coment"` // adiciona um ponto na linha do tempo
-* `git log` // visualiza os pontos na linha do tempo / commit
+
+* `git log ou git reflog` // visualiza os pontos na linha do tempo / commit
+
 * `git status` // informa o estado das alterações do nosso projeto
+
 * `git show` // apresenta determinado ponto na história
-* `git branch` // gerenciar novas linhas do tempo
-* `git checkout` // manipula as linhas do tempo
+
+* `git branch ...` // gerenciar novas linhas do tempo, se escrever so git branch ele vai mostrar as brach que já existem, se escrever com mais alguma coisa ela vai criar uma
+
+* `git checkout ...` // manipula as linhas do tempo
+
 * `git merge` // unir linhas do tempo
+
 * `git push` // envia alterações locais para o repositório remoto
-* `git config credential.helper store` // para não ter que ficar logando o tempo todo
-* `git clone` // clonar um projeto / repositório
+
+* `git clone ...` // clonar um projeto / repositório
+
 * `git pull` // puxa do repositório remoto
+
+* `git --help` // para mostrar todos comandos do git
+
+* `git config credential.helper store` // para não ter que ficar logando o tempo todo
+
+* `git config --global user.email "yourEmail@gmail.com"`// para registar seu email
+
+* `git config --global user.name "Your Name"`// para registar seu nome como author.
+
+* `git remote and origin ...` // para definir o caminho de um reporitório
+
+* `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar
+
