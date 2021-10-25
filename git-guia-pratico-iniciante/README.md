@@ -50,7 +50,7 @@ https://git-scm.com/download
 
 * `git merge ...` // universos alternativos; tem que entrar na branch que deseja unir os mundos e trazer o outro mundo para o atual
 
-* `git push` // envia alterações locais para o repositório remoto
+* `git push` //  envia alterações locais para o repositório remoto
 
 * `git clone ...` // clonar um projeto / repositório
 
@@ -65,3 +65,5 @@ https://git-scm.com/download
 * `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
 
 * `touch .gitignore`// para usar isso não pode pode usar o git add, devido a ele ao objeto passar a ser versionado,usand o .gitignore vai criar um arquivo onde voce pode definir quem não terá controle de versionamento
+
+oi
