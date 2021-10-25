@@ -48,7 +48,7 @@ https://git-scm.com/download
 
 * `git checkout ...` // manipula as linhas do tempo e define o mundo que voce quer habitar
 
-* `git checkout -b "nome da branch de origem" "nome da nova branch"`// permite mudar e criar uma nova branch com base em outra
+* `git checkout -b "nome da branch de origem" "nome da nova branch"`// permite mudar e criar uma nova branch com base em outra; dá para criar uma branch com id da versao anterior do commit para que ajuda muito pois basta dá um merge dps de uma alteração; obs: não pode haver pendencias de commit nem add e nem nada, tem que tá livre
 
 * `git merge ...` // universos alternativos; tem que entrar na branch que deseja unir os mundos e trazer o outro mundo para o atual
 
@@ -62,7 +62,7 @@ https://git-scm.com/download
 
 * `git config credential.helper store` // para não ter que ficar logando o tempo todo
 
-* `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar
+* `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar, funciona antes do push, fazendo isso depois acarretará probelmas
 
 * `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
 
