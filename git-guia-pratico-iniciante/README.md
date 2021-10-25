@@ -38,9 +38,9 @@ https://git-scm.com/download
 
 * `git branch ...` // gerenciar novas linhas do tempo, se escrever so git branch ele vai mostrar as brach que já existem, se escrever com mais alguma coisa ela vai criar uma
 
-* `git checkout ...` // manipula as linhas do tempo
+* `git checkout ...` // manipula as linhas do tempo e define o mundo que voce quer habitar
 
-* `git merge` // unir linhas do tempo
+* `git merge ...` // universos alternativos; tem que entrar na branch que deseja unir os mundos e trazer o outro mundo para o atual
 
 * `git push` // envia alterações locais para o repositório remoto
 
