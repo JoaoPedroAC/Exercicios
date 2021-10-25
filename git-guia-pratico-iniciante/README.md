@@ -68,4 +68,4 @@ https://git-scm.com/download
 
 * `touch .gitignore`// para usar isso não pode pode usar o git add, devido a ele ao objeto passar a ser versionado,usand o .gitignore vai criar um arquivo onde voce pode definir quem não terá controle de versionamento
 
-oi
+o
