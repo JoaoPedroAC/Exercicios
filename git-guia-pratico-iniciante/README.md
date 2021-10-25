@@ -50,7 +50,7 @@ https://git-scm.com/download
 
 * `git merge ...` // universos alternativos; tem que entrar na branch que deseja unir os mundos e trazer o outro mundo para o atual
 
-* `git push` // envia alterações locais para o repositório remoto
+* `git push` //  envia alterações locais para o repositório remoto
 
 * `git clone ...` // clonar um projeto / repositório
 
