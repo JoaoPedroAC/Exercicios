@@ -46,6 +46,8 @@ https://git-scm.com/download
 
 * `git checkout ...` // manipula as linhas do tempo e define o mundo que voce quer habitar
 
+* `git checkout -b "nome da branch de origem" "nome da nova branch"`// permite mudar e criar uma nova branch com base em outra
+
 * `git merge ...` // universos alternativos; tem que entrar na branch que deseja unir os mundos e trazer o outro mundo para o atual
 
 * `git push` // envia alterações locais para o repositório remoto
@@ -61,3 +63,5 @@ https://git-scm.com/download
 * `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar
 
 * `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
+
+* `touch .gitignore`// para usar isso não pode pode usar o git add, devido a ele ao objeto passar a ser versionado,usand o .gitignore vai criar um arquivo onde voce pode definir quem não terá controle de versionamento
