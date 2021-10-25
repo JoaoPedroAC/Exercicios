@@ -44,7 +44,7 @@ https://git-scm.com/download
 
 * `git show` // apresenta determinado ponto na história
 
-* `git branch ...` // gerenciar novas linhas do tempo, se escrever so git branch ele vai mostrar as brach que já existem, se escrever com mais alguma coisa ela vai criar uma
+* `git branch ...` // gerenciar novas linhas do tempo, se escrever so git branch ele vai mostrar as brach que já existem, se escrever com mais alguma coisa ela vai criar uma; para deletar é git branch -D ...
 
 * `git checkout ...` // manipula as linhas do tempo e define o mundo que voce quer habitar
 
