@@ -60,3 +60,4 @@ https://git-scm.com/download
 
 * `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar
 
+* `git push --set-upstream origin ...`// apos o origin voce colo cará o repositório que deseja dar o push
