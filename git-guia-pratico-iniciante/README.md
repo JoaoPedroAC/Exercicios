@@ -26,6 +26,8 @@ https://git-scm.com/download
 
 * `git init` // inicia a linha do tempo(USAR EM PASTAS - define o repositorio local)
 
+* `git remote`// para ver os repositorios
+
 * `git remote and origin ...` // para definir o caminho de um reporitório
 
 * `git config --global user.email "yourEmail@gmail.com"`// para registar seu email
