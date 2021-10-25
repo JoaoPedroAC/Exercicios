@@ -25,8 +25,8 @@ https://git-scm.com/download
 - [x] Você precisa recuperar algo deletado.
 
 * `git init` // inicia a linha do tempo
-* `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
-* `git commit` // adiciona um ponto na linha do tempo
+* `git add "file"` // adiciona ou atualiza mudanças para irem para a linha do tempoo
+* `git commit "coment"` // adiciona um ponto na linha do tempo
 * `git log` // visualiza os pontos na linha do tempo / commit
 * `git status` // informa o estado das alterações do nosso projeto
 * `git show` // apresenta determinado ponto na história
