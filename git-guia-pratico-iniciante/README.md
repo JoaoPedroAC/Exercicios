@@ -26,6 +26,12 @@ https://git-scm.com/download
 
 * `git init` // inicia a linha do tempo(USAR EM PASTAS - define o repositorio local)
 
+* `git remote and origin ...` // para definir o caminho de um reporitório
+
+* `git config --global user.email "yourEmail@gmail.com"`// para registar seu email
+
+* `git config --global user.name "Your Name"`// para registar seu nome como author.
+
 * `git add "file"` // adiciona ou atualiza mudanças para irem para a linha do tempo
 
 * `git commit "coment"` // adiciona um ponto na linha do tempo
@@ -52,12 +58,6 @@ https://git-scm.com/download
 
 * `git config credential.helper store` // para não ter que ficar logando o tempo todo
 
-* `git config --global user.email "yourEmail@gmail.com"`// para registar seu email
-
-* `git config --global user.name "Your Name"`// para registar seu nome como author.
-
-* `git remote and origin ...` // para definir o caminho de um reporitório
-
 * `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar
 
-* `git push --set-upstream origin ...`// apos o origin voce colo cará o repositório que deseja dar o push
+* `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
