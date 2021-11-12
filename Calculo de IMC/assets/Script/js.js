@@ -5,7 +5,7 @@ const weight = document.getElementById('peso');
 const button = document.getElementById('botao');
 const answer = document.getElementById('answer');
 button.addEventListener('click', function stop() {
-	answer.style = 'display:block; background-color: red;transition: 0.5s; -o-transition: 0.5s;';
+	answer.style = 'display:block; background-color: #ba3029; transition: 0.5s; -o-transition: 0.5s;';
 	if (nome.value === '') {
 		answer.innerHTML = 'Faltando <b>Nome</b>';
 		return;
@@ -24,7 +24,7 @@ button.addEventListener('click', function stop() {
 	} else {
 	}
 	function renderResult(paciente, peso, altura) {
-		answer.style = 'display:block; background-color: green; transition: 0.8s; -o-transition: 0.8s;';
+		answer.style = 'display:block; background-color: #31a851; transition: 0.8s; -o-transition: 0.8s;';
 		
 		let result = parseFloat(peso).toFixed(2) / parseFloat(altura).toFixed(2) ** 2;
 		

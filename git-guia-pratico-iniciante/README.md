@@ -26,9 +26,11 @@ https://git-scm.com/download
 
 * `git init` // inicia a linha do tempo(USAR EM PASTAS - define o repositorio local)
 
-* `git remote`// para ver os repositorios
-
 * `git remote and origin ...` // para definir o caminho de um reporitório
+
+* `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
+
+* `git remote`// para ver os repositorios
 
 * `git config --global user.email "yourEmail@gmail.com"`// para registar seu email
 
@@ -63,8 +65,6 @@ https://git-scm.com/download
 * `git config credential.helper store` // para não ter que ficar logando o tempo todo
 
 * `git reset --hard ...` // vai reseta para a versao que vc quer definir usando o id do commit ao qual vc quer restaurar, funciona antes do push, fazendo isso depois acarretará probelmas
-
-* `git push --set-upstream origin ...`// apos o origin voce colocará o repositório que deseja dar o push; isso é para caso não de o git push
 
 * `touch .gitignore`// para usar isso não pode pode usar o git add, devido a ele ao objeto passar a ser versionado,usand o .gitignore vai criar um arquivo onde voce pode definir quem não terá controle de versionamento
 
