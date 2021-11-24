@@ -1,0 +1,11 @@
+body{
+    padding-left: 12px;
+    font-family: Arial;
+}
+p{
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 99%;
+    color: black;
+}
