@@ -3,6 +3,6 @@ const cestaFrutas = {
   azeda: ['limão', 'Laranja', 'Tangerina'],
   aguada: ['Melancia', 'Melão']
 };
-let {doce} = cestaFrutas;
-let[maca] = doce;
+let {doce:[maca]} = cestaFrutas;
+// let[maca] = doce;
 console.log(maca);
