@@ -9,7 +9,7 @@ const pessoas = {
 	},
 };
 // atribuição e desestruturação
-
+// É necessario usar o nome literal do da variavel do objeto se não dá erro
 const { nome, sobrenome, ...restante} = pessoas;
 console.log(nome, sobrenome, restante);
 
