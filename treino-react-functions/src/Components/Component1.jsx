@@ -4,14 +4,9 @@ import Component2 from './Component2';
 
 export default function someThings() {
 	const apresentacao = 'carai';
-    const pessoa = { nome: 'João', sobrenome: 'Costela', idade: 22 };
+	const pessoa = { nome: 'João', sobrenome: 'Costela', idade: 22 };
 	const some = () => {
-		for (let chave in pessoa){
-            return chave, pessoa[chave];
-        };
+		return pessoa.sobrenome;
 	};
-    return (
-        <Component2 value={some()} />
-
-    );
+	return <Component2 value={some()} />;
 }
