@@ -3,7 +3,7 @@ function rand(min = 1000, max = 3000) {
 	return Math.floor(valor);
 }
 /* VAMOS INICIAR O CALLBACK "HELL"(HELL é pq é uma bagunça mental rsrs) */
-/* A ideia é fazer com que seja renderizado as functions na ordem correta nao importando a demora para a execução, isso é como o banco de dados, pois não dá para demencionar o quanto demoraria, assim evitando diversos erros, caso uma coisa ocorresse antes do BD!*/
+/* A ideia é fazer com que seja renderizado as functions na ordem correta nao importando a demora para a execução, isso é como o banco de dados, pois não dá para dimencionar o quanto demoraria, assim evitando diversos erros, caso uma coisa ocorresse antes do BD!*/
 function f1(callback) {
 	setTimeout(function () {
 		console.log(`Executando F1 - ${(rand() / 1000).toFixed(1)} seg.`);
