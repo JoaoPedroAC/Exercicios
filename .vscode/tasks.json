@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "eject",
+			"path": "treino-react-functions",
+			"problemMatcher": [],
+			"label": "npm: eject - treino-react-functions",
+			"detail": "react-scripts eject"
+		}
+	]
+}
