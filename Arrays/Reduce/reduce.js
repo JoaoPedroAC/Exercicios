@@ -7,8 +7,8 @@ Reduce ->  assim como o nome diz, ele reduz o array em 1 unico elemento, ele tem
 // Retorne um array com o dobro dos valores (map)
 const numeros = [5, 50, 80, 1, 3, 2, 5, 8, 7, 11, 15, 22, 27];
 const total = numeros.reduce((acumulator, atualValue, index, originalArray) => {
+	// console.log(acumulator, '|', atualValue);
 	acumulator += atualValue;
-	// console.log(acumulador, '|', atualValue);
 	return acumulator;
 });
 // console.log(total);
