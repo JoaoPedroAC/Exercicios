@@ -21,9 +21,8 @@ slider.addEventListener('mousemove', function () {
 /* Aqui estara a configuração do outro range, apneas movimento nada de valor*/
 const deslizo = document.getElementById('slide');
 deslizo.addEventListener('mousemove', function () {
-	let porcent =
-		(Number(deslizo.value - deslizo.min) / (deslizo.max - deslizo.min)) * 100;
-	let follow = `linear-gradient(90deg, red ${porcent-50}%, orange ${porcent}%, gray ${porcent}%)`;
+	let porcent = (Number(deslizo.value - deslizo.min) / (deslizo.max - deslizo.min)) * 100;
+	let follow = `linear-gradient(90deg, red ${porcent - 50}%, orange ${porcent}%, gray ${porcent}%)`;
 	deslizo.style.background = follow;
 	// console.log(deslizo.value);
 });
