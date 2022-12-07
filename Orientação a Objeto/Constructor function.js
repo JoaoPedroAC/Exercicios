@@ -9,4 +9,4 @@ function Pessoa(nome, sobrenome) {
 }
 const p1 = new Pessoa('João', 'Berg');
 p1.nome = 'Outro nome';
-console.log(p1.juncaoNome());
+console.log(p1);
