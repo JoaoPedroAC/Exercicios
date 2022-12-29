@@ -31,9 +31,19 @@ function cadastrar() {
 	// ${pessoas[contador].altura} <br>`;
 	// contador++;
 	// console.log(pessoas);
+
 	const cadastrado = pessoas.reduce((acumulator, valorAtual) => valorAtual);
+	// console.log(cadastrado);
 	createP(`nome: ${cadastrado.nome} ${cadastrado.sobrenome}, peso: ${cadastrado.peso},
 			altura: ${cadastrado.altura} <br>`);
+	// console.log(pessoas);
+
+	/* 
+	// MUITO TRABALHOSO
+	const cadastrado = pessoas.map((valorAtual) => valorAtual);
 	console.log(cadastrado);
+	createP(`nome: ${cadastrado[cadastrado.length-1].nome} ${cadastrado[cadastrado.length-1].sobrenome}, peso: ${cadastrado[cadastrado.length-1].peso},
+			altura: ${cadastrado[cadastrado.length-1].altura} <br>`);
 	console.log(pessoas);
+	*/
 }
