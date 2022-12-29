@@ -1,9 +1,15 @@
-const nome = document.getElementById('nome');
-const sobrenome = document.getElementById('sobrenome');
-const peso = document.getElementById('peso');
-const altura = document.getElementById('altura');
-const enviar = document.getElementById('enviar');
-const area = document.getElementById('area-texto');
+const nome = document.getElementById("nome");
+const sobrenome = document.getElementById("sobrenome");
+const peso = document.getElementById("peso");
+const altura = document.getElementById("altura");
+const enviar = document.getElementById("enviar");
+const area = document.getElementById("area-texto");
+
+function createP(value) {
+	const p = document.createElement("p");
+	area.appendChild(p);
+	p.innerHTML = value;
+}
 
 // let nm; -> certo
 // let n = nome.value; -> retorna undefined ou zero ou ate mesmo nada
@@ -21,8 +27,13 @@ function cadastrar() {
 		altura: parseFloat(altura.value).toFixed(2),
 	});
 	// no meu caso eu precisei por o contador, pois sem ele eu o html ficaria so com object, eu poderia ao inves disso por apenas o que eu quero .value, que daria no mesmo.
-	area.innerHTML += (`${pessoas[contador].nome} ${pessoas[contador].sobrenome} ${pessoas[contador].peso}
-    ${pessoas[contador].altura} <br>`);
-    contador++;
+	// area.innerHTML += `${pessoas[contador].nome} ${pessoas[contador].sobrenome} ${pessoas[contador].peso}
+	// ${pessoas[contador].altura} <br>`;
+	// contador++;
+	// console.log(pessoas);
+	const cadastrado = pessoas.reduce((acumulator, valorAtual) => valorAtual);
+	createP(`nome: ${cadastrado.nome} ${cadastrado.sobrenome}, peso: ${cadastrado.peso},
+			altura: ${cadastrado.altura} <br>`);
+	console.log(cadastrado);
 	console.log(pessoas);
-};
+}
