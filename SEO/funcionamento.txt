@@ -1,0 +1,30 @@
+Temos algumas etapas antes da informação chegar no usuario e temos também que entender como funciona esse processo, utilizaremos o Google no exemplo.
+
+temos então:
+
+INTERNET
+    É onde fica registrado tudo, seja site, loja e outros.
+
+GOOGLEBOT
+    É responsavel por reastrear, calssificar e armazenar no Banco de Dados de forma eficiente os dados do site ou seja lá o que for inserido na internet.
+
+INDICE
+    Dados já organizados e classificados no Banco de Dados.
+
+SISTEMA DE BUSCA
+    Busca no Banco de Dados e usa os fatores de ranqueamento para exibir os melhores resultados.
+
+USUARIO
+    Quem busca ou insere os dados na internet.
+
+O SISTEMA DE BUSCA vai indentificar o os dados do BD levando em considereção muitos fatores e isso inclui até mesmo a localização do mesmo.
+
+RASTREAMENTO E CLASSIFICAÇÃO 
+Os buscadores tem papel de coletar dados previamente utilizando softwares para rastreiar e calssificar com o objetivo de otimizar o melhor possivel a busca do usuario.
+
+Quando o usuario faz a busca os algoritimos levam em consideração a localização das palavras-chaves do texto, exemplo: títulos, cabeçalho e URL.
+O Google hoje em dia já consegue indetificar essas palavras-chaves, sem o uso de repetições das mesmas ao longo das páginas web.
+
+INTELIGENCIA NOS RESULTADOS
+Para entregar os resultados com precisão o Googel desenvolveu tecnologias que detectam: seu idioma, sua localidade, completar frases, interpretar erros de digitação e aplicação de sinonimos.
+

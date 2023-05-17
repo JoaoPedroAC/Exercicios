@@ -1,0 +1,29 @@
+O que é SEO?
+S - Search
+    E - Engine
+        O - Optimization
+Otimização para mecanismos de busca
+
+Basicamente é um meio ajudar os buscadores(ex.: Google) a te ajudar, como isso? os  algoritimos usados e tecnicas como PageRank junto com outras técnicas, que analisa seu trabalho publicado e ao seguir alguns requisitos suas publicações tornam-se a 1ª da lista para ser visualizadas(ex.: Uma lista do melhor para o pior). 
+
+É gerado um publicidade "organica" que possibilita bons seguidores(para redes sociais) onde alé de visualização as pessoas estão interessadas em "comprar" o que voce "vende", lembrando que o que vale a pena de verdade é a "venda" e não numero de views e inscritos!
+
+BENEFICIOS E OBJETIVOS
+* Gerar tráfego organico qualificado para o site ou loja;
+* Aumentar o bounce rate (tempo de permanencia do usuario no site);
+* Aumentar as vendas de serviços e produtos;
+* Gerar autoridade para um site.
+
+SEO feito corretamente gera mais venda e pode alcançar novos clientes!
+
+ATEÇÃO
+* SEO demorar para dar seus 1ºs resultados;
+* As regras mudam com frequencia e não informa publicamente em detalhes;
+* Seguimos recomendações das ferramentas de busca, experiencia propria e/ou de terceiros;
+* somente a EQUIPE de devs das ferramentas sabem exatamente como o algoritimo funciona.
+
+ERROS COMUNS
+* Não atender os principios basicos de SEO;
+* Criar conteudo sem estrategia e que o usuario nao está procurando;
+* Copiar conteudo de outros sites;
+* Atração de trafego de baixa qualidade(ex.: Compra de conta fake no instagram para ganhar seguidores)
