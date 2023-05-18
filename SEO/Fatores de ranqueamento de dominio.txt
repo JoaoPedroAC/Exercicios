@@ -1,0 +1,21 @@
+FATORES DO DOMINIO
+
+    IDADE DO DOMINIO - PLANEJAMENTO
+        O Google diz que isso não é relevante, o que importa mesmo é a relevancia do dominio ao longo do tempo;
+        O Google afirma que isso não é fator de ranqueamento;
+        Mesmo assim os sites mais antigos pode ter alguma influncia no posicionamento, pois sites mais antigos tiveram mais tempo para produzir conteudos, ganhar links e receber visitantes.
+    
+    PALAVRA-CHAVE NO DOMINIO OU SUBDOMINIO
+        Desde 2012, o Google dá pouca relevancia à correspondencia exata de dominio (carros.com), com intuito de evitar spam;
+        Se o dominioinclui palavra-chave entre outros termos (carrosnovos.com), o Google dá MENOS inportancia ainda;
+        A relevancia de palavra-chave no subdomionio como fator de classificação é BAIXA assim como no dominio.
+
+    PAÍS NO ccTLD (country-code Top Level Domain) - PLANEJAMENTO
+        É o .br depois do .com para dizer que aquele dominio pertence ao Brasil, assim como .jp para o Japão e .us para o USA;
+        O buscador do Google entende que um site com dominio ccTLD como .br é relevante para a galera do Brasil;
+        É um fator importante para quem deseja internacionalizar seu site e proteger sua marca;
+
+    PALAVRA-CHAVE NO TLD
+        Além das TLDs tradicionais (.com, .net, .org, .gov, ...), hoje em dia pode usar terminações de dominio mais criativas (.guru, .cafe, 
+        .ninja,...);
+        Apesar disso, o Google já declarou que todas as TLDs são tratadas igualmente e ignora a presença de palavra-chave nesse elemento de dominio.
