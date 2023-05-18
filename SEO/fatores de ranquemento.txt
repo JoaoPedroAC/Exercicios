@@ -1,0 +1,23 @@
+TIPOS DE FATORES DE RANQUEMENTO
+    
+    PLANEJAMENTO
+        Antes da criação;
+        Exemplo: Escolha de dominio, Arqueitetura do sistema e outros.
+
+    CRIAÇÃO
+        Durante a criação;
+        Exemplo: Títulos, palavras-chaves, uso de cache e outros.
+
+    ACOMPANHAMENTO - por se tratar de algo MUITO trabalhoso e CARO pode se cobrar como serviço a parte ou até como serviço mensal
+        Após concluir o site;
+        Exemplo: Backlinks, conteúdo como estratégia e outros.
+
+CATEGORIA
+* Fatrores de dominio;
+* Fatores de página - cada pagina deve ser indexada;
+* Fatores de conteúdo;
+* Fatores do site;
+* Fatores de interação do usuário;
+* Fatores de backlinks - sites (não precisa necessariamente ser um site) externos faznedo referencia do seu site;
+* Regras do algoritimo;
+* Sinais de marca;
