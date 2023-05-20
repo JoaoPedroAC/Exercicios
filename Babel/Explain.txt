@@ -1,0 +1,9 @@
+O que seria o Babel?
+
+É uma ferramenta instalada através do terminal utilizando npm init -y e depois npm install --save-dev @babel/cli @babel/preset-env @babel/core
+para criar um arquivo com os dados do arquivo .js convertido npx babel main.js -o bundle.js --presets=@babel/env
+
+Feito isso teremos um arquivo bundle.js com os códigos do main.js transcrito para uma forma mais arcaica no bundle.js, sendo assim ele terá uma 
+compatibilidade maior com outros navegadores mais antigos.
+
+O Babel existe como forma de site https://babeljs.io, ou seja, nao ha muita necessidade de instala-lo aqui!
