@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAAA,IAAIA,KAAK,GAAG,KAAK;AAEjBC,OAAO,CAACC,GAAG,CAACF,KAAK,CAAC,C","sources":["webpack://sobre-webpack/./src/index.js"],"sourcesContent":["let frase = \"ola\";\r\n\r\nconsole.log(frase);\r\n"],"names":["frase","console","log"],"sourceRoot":""}
